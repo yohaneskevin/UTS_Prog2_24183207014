@@ -38,6 +38,8 @@ Kedua atribut ini bersifat static,berarti hanya ada satu salinan variabel yang d
 contoh output:
 
 <img width="500" height="264" alt="image" src="https://github.com/user-attachments/assets/91c27d25-edb7-4d67-8cb2-c56a6c42324d" />
+<img width="440" height="353" alt="image" src="https://github.com/user-attachments/assets/51f01d2f-f734-428c-93c9-e4c5b5f6e36d" />
+
 
 
 
