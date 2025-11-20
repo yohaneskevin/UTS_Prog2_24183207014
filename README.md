@@ -1,5 +1,4 @@
 # UTS_Prog2_24183207014
-Tugas 1 - Pemrograman 2
 
 Nama:Yohanes Kevin Victorian
 
@@ -7,16 +6,39 @@ NPM : 24183207014
 
 Kelas: Pendidikan Teknologi Informasi/3A
 
-Program ini menggunakan konsep dasar Pemrograman Berorientasi Objek (OOP), di mana kita membuat cetak biru (blueprint) dan kemudian membuat benda nyata (objek) dari cetak biru tersebut.
+1. Class Mahasiswa
+Class ini adalah Class Objek yang bertindak sebagai representasi dari entitas "Mahasiswa" di dunia nyata.
 
-Mahasiswa.java (Cetak Biru / Class)Mahasiswa.java adalah cetak biru atau template (disebut Class) untuk membuat data tentang seorang siswa.ElemenFungsiAnalogiAtribut (nama, npm, jurusan)Adalah data-data yang akan dimiliki oleh setiap siswa.Seperti kolom-kolom pada formulir pendaftaran siswa.Method (tampilkanData())Adalah kemampuan atau aksi yang bisa dilakukan oleh objek siswa.Seperti tombol "Cetak Data" pada atasnya, yang menampilkan semua informasi.
+Class: Mahasiswa
 
-MainClass.java (Pabrik / Tempat Eksekusi)MainClass.java adalah tempat program utama Anda berjalan (disebutkan metode utama). Di dalamnya kita menggunakan cetak biru (Mahasiswa) untuk membuat objek nyata.TindakanPenjelasanAnalogiMembuat Objek (mhs1, mhs2)Menggunakan new Mahasiswa(...) untuk membuat dua benda nyata (disebut Object), yaitu Wahyu Iqbal dan Joko Pangestu, berdasarkan cetak biru.Seperti di pabrik yang menggunakan cetak biru mobil untuk membuat dua mobil berbeda warna.Memanggil Method (mhs1.tampilkanData())Memerintahkan objek (Wahyu Iqbal dan Joko Pangestu) untuk menjalankan kemampuan mereka (tampilkanData()).Seperti menekan tombol "Cetak Data" pada data Wahyu Iqbal, dan kemudian menekan tombol yang sama pada data Joko Pangestu
+Atribut:
 
-Jadi ya Intinya Mahasiswa mendefinisikan APA itu seorang mahasiswa (punya nama, Npm, jurusan, dan bisa menampilkan data).MainClass mendefinisikan BAGAIMANA menggunakan definisi itu, yaitu dengan membuat dua contoh spesifik (objek Wahyu Iqbal dan Joko Pangestu) dan menjalankan perintahnya.
+private String nim;
 
-Contoh Output:
+private String nama;
 
-Berikut hasil ketika program dijalankan di NetBeans:
+private int umur;
 
-gambar
+Semua atribut ini bersifat private, yang berarti hanya bisa diakses dan diubah di dalam Class Mahasiswa itu sendiri (melalui Getter dan Setter).
+
+2. Class MainApp
+Class ini adalah Class Utama yang berisi logika aplikasi untuk menjalankan sistem manajemen data Mahasiswa.
+
+Class: MainApp
+
+Atribut:
+
+private static ArrayList<Mahasiswa> daftarMahasiswa = new ArrayList<>(); (Digunakan untuk menyimpan kumpulan objek Mahasiswa)
+
+private static Scanner scanner = new Scanner(System.in); (Digunakan untuk menangani input dari user)
+
+Kedua atribut ini bersifat static,berarti hanya ada satu salinan variabel yang dibagikan ke semua instance Class (dalam kasus ini, hanya ada satu instance yang digunakan).
+
+
+contoh output:
+
+<img width="500" height="264" alt="image" src="https://github.com/user-attachments/assets/91c27d25-edb7-4d67-8cb2-c56a6c42324d" />
+
+
+
+
