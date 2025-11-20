@@ -13,11 +13,11 @@ Class: Mahasiswa
 
 Atribut:
 
-private String nim;
+-private String nim;
 
-private String nama;
+-private String nama;
 
-private int umur;
+-private int umur;
 
 Semua atribut ini bersifat private, yang berarti hanya bisa diakses dan diubah di dalam Class Mahasiswa itu sendiri (melalui Getter dan Setter).
 
@@ -28,11 +28,11 @@ Class: MainApp
 
 Atribut:
 
-private static ArrayList<Mahasiswa> daftarMahasiswa = new ArrayList<>(); (Digunakan untuk menyimpan kumpulan objek Mahasiswa)
+-private static ArrayList<Mahasiswa> daftarMahasiswa = new ArrayList<>(); (Digunakan untuk menyimpan kumpulan objek Mahasiswa)
 
-private static Scanner scanner = new Scanner(System.in); (Digunakan untuk menangani input dari user)
+-private static Scanner scanner = new Scanner(System.in); (Digunakan untuk menangani input dari user)
 
-Kedua atribut ini bersifat static,berarti hanya ada satu salinan variabel yang dibagikan ke semua instance Class (dalam kasus ini, hanya ada satu instance yang digunakan).
+-Kedua atribut ini bersifat static,berarti hanya ada satu salinan variabel yang dibagikan ke semua instance Class (dalam kasus ini, hanya ada satu instance yang digunakan).
 
 
 contoh output:
